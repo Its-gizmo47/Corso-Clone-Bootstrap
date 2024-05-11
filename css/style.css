@@ -1,0 +1,42 @@
+nav {
+  transition: all 0.5s ease-in-out;
+}
+
+nav.navbar-effect {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+header {
+  background-size: cover;
+  background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/header-background.jpg") center center no-repeat;
+}
+
+header #slider {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#summary .join-us-bg {
+  background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../images/invitation-background.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+#takeaways .icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background-color: rgba(128, 128, 128, 0.09);
+}
+
+#takeaways .icon-container .icon-2 {
+  font-size: 60px;
+}
+
+@media (max-width: 767px) {
+  nav {
+    background-color: var(--bs-dark);
+  }
+}
